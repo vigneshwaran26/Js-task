@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>overlay</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="UTF-8" />
+        <link href="./overlay.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="myNav" class="overlay">
+            <span style="font-size: 30px; cursor: pointer;" class="close" onclick="closelayout()">&times; </span>
+            <div class="overlay-content">
+                <p>Yet another page.......</p>
+            </div>
+        </div>
+        <div>
+            <span  class="menu" onclick="openlayout()">&#9776; click the sandwich buttons</span>
+        </div>
+        <script>
+            function openlayout() {
+                document.getElementById("myNav").style.height = "100%";
+            }
+            function closelayout() {
+                document.getElementById("myNav").style.height = "0%";
+            }
+        </script>
+       
+    </body>
+</html>

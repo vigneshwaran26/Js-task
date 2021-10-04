@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Ephesis", cursive;
+    src: url("./Ephesis-Regular.ttf") format(truetype);
+}
+
+.overlay {
+    height: 0;
+    width: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: navajowhite;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.overlay p {
+    padding: 8px;
+    font-family: "Ephesis", cursive;
+    font-size: 50px;
+    color: darkslategrey;
+    display: block;
+    transition: 0.3s;
+}
+.menu {
+    width: 100%;
+    text-align: center;
+    padding-left: 100px;
+    font-size: 80px;
+    cursor: pointer;
+}
+.menu:hover {
+    color:darkcyan
+    
+}
+.overlay span:hover {
+    color: orangered;
+}
+.close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 60px;
+}

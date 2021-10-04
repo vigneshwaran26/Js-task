@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: rgb(232, 236, 236);
+    padding: 25px;
+    text-align: center;
+}
+header nav a{
+    padding: 10px 25px;
+    color: #fff;
+    font-size: 20px;
+}
+header nav a.active,header nav a:hover{
+    background: #fff;
+    color: darkcyan;
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 7em;
+    color: #ccc;
+    font-weight: bolder;
+    padding-bottom: 70px;
+}
+section:nth-child(odd){
+    background: #eee;
+}
