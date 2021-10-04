@@ -1,0 +1,9 @@
+.container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0px;
+    padding: 10px 20px;
+    background-color: powderblue;
+    flex-direction: column;
+}
